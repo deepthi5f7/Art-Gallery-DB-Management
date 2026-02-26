@@ -1,0 +1,65 @@
+Art Gallery Management Database System
+
+An advanced database-driven web application designed to manage artists and artworks in an art gallery. This project demonstrates ER modeling, relational database design, constraints, views, and full CRUD operations using Flask and MySQL.
+
+📌 Project Overview
+
+The Art Gallery Management System allows users to:
+
+Manage artist records (name, birthplace, age, style)
+
+Manage artwork records (title, year, category, price)
+
+Maintain relationships between artists and their artworks
+
+Generate reports using SQL Views
+
+Perform full CRUD operations
+
+Enforce database constraints and foreign keys
+
+This project focuses on strong database design principles and practical implementation.
+
+🏗️ Database Design
+Entities:
+
+Artists
+
+Artworks
+
+Relationship:
+
+One Artist → Many Artworks (One-to-Many)
+
+Key Features:
+
+Primary Keys & Foreign Keys
+
+CHECK Constraints
+
+ON DELETE CASCADE
+
+SQL Views for reporting
+
+Join Queries
+
+🛠️ Technologies Used
+
+Python (Flask)
+
+MySQL
+
+SQL (ER Modeling, Views, Constraints)
+
+HTML/CSS
+
+Jinja2 Templates
+
+📊 Database Features
+
+✔ ER-based relational schema
+✔ Foreign key relationships
+✔ Data validation using constraints
+✔ View creation for reporting (artwork_report)
+✔ Join operations for displaying related data
+✔ Sample data included
