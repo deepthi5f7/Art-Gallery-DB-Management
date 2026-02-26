@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Art Gallery Management</h1>
+<nav>
+    <a href="/">Home</a>
+    <a href="/artists">Artists</a>
+    <a href="/artworks">Artworks</a>
+    <a href="/add_artist">Add Artist</a>
+    <a href="/add_artwork">Add Artwork</a>
+</nav>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>

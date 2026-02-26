@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Add Artwork</h2>
+<form method="POST">
+<input name="title" placeholder="Title"><br>
+<input name="year" placeholder="Year"><br>
+<input name="category" placeholder="Category"><br>
+<input name="price" placeholder="Price"><br>
+<select name="artist_id">
+{% for a in artists %}
+<option value="{{ a[0] }}">{{ a[1] }}</option>
+{% endfor %}
+</select>
+<button>Add</button>
+</form>
+{% endblock %}
