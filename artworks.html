@@ -1,7 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>Artworks</h2>
-{% for ar in artworks %}
-<p>{{ ar[1] }} | {{ ar[2] }} | ${{ ar[3] }} | Artist: {{ ar[4] }}</p>
-{% endfor %}
-{% endblock %}
